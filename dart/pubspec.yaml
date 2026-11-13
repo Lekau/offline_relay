@@ -1,0 +1,11 @@
+name: relay_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+workspace:
+  - offline_relay
+
+dev_dependencies:
+  melos: ^8.0.0
