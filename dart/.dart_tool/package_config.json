@@ -420,6 +420,12 @@
       "rootUri": "../offline_relay",
       "packageUri": "lib/",
       "languageVersion": "3.14"
+    },
+    {
+      "name": "offline_relay_core",
+      "rootUri": "../offline_relay_core",
+      "packageUri": "lib/",
+      "languageVersion": "3.14"
     }
   ],
   "generator": "pub",

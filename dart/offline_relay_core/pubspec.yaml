@@ -1,0 +1,14 @@
+name: offline_relay_core
+description: Core primitives for the Offline Relay offline-first SDK.
+version: 0.1.0
+
+resolution: workspace
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  collection: ^1.19.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6

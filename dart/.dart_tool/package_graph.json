@@ -1,6 +1,7 @@
 {
   "roots": [
     "offline_relay",
+    "offline_relay_core",
     "relay_workspace"
   ],
   "packages": [
@@ -17,6 +18,17 @@
       "version": "1.0.0",
       "dependencies": [
         "path"
+      ],
+      "devDependencies": [
+        "lints",
+        "test"
+      ]
+    },
+    {
+      "name": "offline_relay_core",
+      "version": "0.1.0",
+      "dependencies": [
+        "collection"
       ],
       "devDependencies": [
         "lints",
@@ -88,6 +100,11 @@
     {
       "name": "lints",
       "version": "6.1.0",
+      "dependencies": []
+    },
+    {
+      "name": "collection",
+      "version": "1.19.1",
       "dependencies": []
     },
     {
@@ -234,11 +251,6 @@
     {
       "name": "conventional_commit",
       "version": "0.6.1+1",
-      "dependencies": []
-    },
-    {
-      "name": "collection",
-      "version": "1.19.1",
       "dependencies": []
     },
     {
